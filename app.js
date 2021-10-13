@@ -13,13 +13,13 @@ let fullAddress = `${coStreet}, ${coCity}, ${coState} ${coZip}`;
 
 // Product Images
 // 2SGS-BlueSky
-let image1 = "./images/2SGS-BlueSky.jpg";
+let image1 = "./images/WebP/2SGS-BlueSky.webp";
 // 2SGS-SolarFarm
-let image2 = "./images/2SGS-SolarFarm.jpg";
+let image2 = "./images/WebP/2SGS-SolarFarm.webp";
 // CrossLinerLite2
-let image3 = "./images/CossLinerLite2.jpg;"
+let image3 = "./images/WebP/CossLinerLite2.webp;"
 // dalokove_ovladani
-let image4= "./images/dalokove_ovlandani.jpg";
+let image4= "./images/WebP/dalokove_ovlandaniCrop.webp";
 
 
 let logoElement = '<img source=logo alt="Anywhere Products, LLC logo" >'
