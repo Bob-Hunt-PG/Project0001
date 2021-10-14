@@ -67,7 +67,9 @@ container{
 }
 
 .nav-link {
-    color:#84bd00}
+    color:#84bd00;
+    padding: 8px,16px,8px,2px;
+}
 
 #navlnk1 {
     color:#84bd00;
