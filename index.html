@@ -14,7 +14,7 @@
     <div class="container-fluid" id="main">
 
         <!-- allows for additional padding for mobile buttons, camera, etc -->
-        <div class="col-md-0" id="bumper-top-container">
+        <div class="col-xs-12 col-md-0 col-lg-0 col-xl-0" id="bumper-top-container">
             <div class="row" id="bumper-top">Mobile Bumper</div>
         </div>
 
@@ -23,21 +23,32 @@
 
             <div class="row" id="header-row">
 
-                <div class="col-12 col-md-4 col-lg-6" id="logo">
+                <div class="col-12 col-md-3 col-lg-3" id="logo">
                     <!-- Logo Here -->
-                    <img src="./images/Anywhere-Products.jpg" class="img-responsive" alt="Anywhere Products logo" width="100%" height="auto"> 
+                    <!-- <img src="./images/Anywhere-Products.jpg" class="img-responsive" alt="Anywhere Products logo" width="100%" height="auto">  -->
+                    <img src="./images/Anywhere-Products.jpg" class="img-responsive" alt="Anywhere Products logo" width="100%" > 
+
                 </div>
 
-                <div class="col-md-2 col-lg-0" id="header-spacer"></div>
+                <!-- <div class="col-md-0 col-lg-0" id="header-spacer"></div> -->
 
-                <div class="col-12 col-md-6 col-lg-12" id="nav-col">
+                <div class="col-12 col-md-8 col-lg-8" id="nav-col">
                     <nav class="header-nav">
                         <ul class="navbar">
 
                             <li class="nav-item">
-                                <a class="nav-link" id="navlnk1">
+                                <!-- <a class="nav-link" id="navlnk1">
                                     Products
-                                </a>
+                                </a> -->
+                                <div class="dropdown" id="navlnk1">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Products
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                      <li><a class="dropdown-item" href="#">2SGS</a></li>
+                                      <li><a class="dropdown-item" href="#">Cross Liner Lite 2</a></li>
+                                    </ul>
+                                  </div>
                             </li>
 
                             <li class="nav-item">
@@ -246,6 +257,26 @@
                             </div>
                         </div>
                     </div>    
+                </div>
+            </div>
+
+        </div>
+
+        <!-- **Products** -->
+        <div class="container" id="product-container">
+            <h1 class="product-title" id="prod-title-1">2SGS</h1>
+            <div class="row" id="product-1">
+                <div class="product-item" id="prod-item-1" >
+                    <img class="col-6" id="prod1-img-1" src="./images/2SGS-SolarFarmCrop.jpg" alt="2SGS Mower cutting grass." >
+                    <p class="col-6" id="prod1-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis perspiciatis quia corporis porro nihil, placeat ea explicabo omnis fuga assumenda quae! Doloremque totam et odit praesentium similique expedita ad quo.</p>
+                </div>
+            </div>
+
+            <h1 class="product-title" id="prod-title-1">Cross Liner Lite 2</h1>
+            <div class="row" id="product-2">
+                <div class="product-item" id="prod-item-2" >
+                    <img class="col-6" id="prod2-img-1" src="./images/CrossLinerLite2Crop.jpg" alt="Cross Liner Lite 2 Mower cutting grass." >
+                    <p class="col-6" id="prod2-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis perspiciatis quia corporis porro nihil, placeat ea explicabo omnis fuga assumenda quae! Doloremque totam et odit praesentium similique expedita ad quo.</p>
                 </div>
             </div>
 
