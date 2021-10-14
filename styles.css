@@ -3,11 +3,18 @@ body {
     height: 100vh;
     margin: 0px;
     padding: 0px;
+    border: 0px;
     background-color: black;
+    /* background-color: white; */
+}
+
+#main {
+    width: 100vw;
+    margin: 0px;
 }
   
 container{
-    width: 100%;   
+    width: 100vw;   
 }
 
 /* The bumpers allow for spacing at top and/or bottom */
@@ -17,6 +24,7 @@ container{
     color: darkorchid;
 }
 #bumper-top {
+    background-color: black;
     color: black;
 }
 
@@ -25,18 +33,24 @@ container{
 }
 
 #bumper-btm {
-    color: darkorange;
+    background-color: black;
+    color: black;
 }
 
 
 /* **HEADER** */
 #header-container {
     color: white;
-    margin-top: 5px;
+    background-color: white;
+    margin: 5px 0px 0px 0px;
+    margin-right: 0px;
+    width: 100vw;
+    padding: 0px;
 }
 
 #header-row {
     color: white;
+    width: 100vw;
 }
 
 #logo {
@@ -45,11 +59,18 @@ container{
     color: white;
     border:solid white 10px;
     /* width: 100%; */
-    /* Padding: 200px, 200px; */
+    Padding: 20px;
+
 } 
 
 #header-spacer {
     color: white;
+}
+
+#nav-col {
+    background-color: white;
+    justify-content: center;
+    align-items: baseline;
 }
 
 .header-nav {
@@ -58,49 +79,79 @@ container{
 
 .navbar {
     color: crimson;
+    justify-content: space-evenly;
+    /* justify-content: space-between; */
+    align-items: baseline;
 }
 
 .nav-item {
-    color: #FECC00;
+    /* color: #FECC00; */
+    color: #84bd00;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 
 .nav-link {
     color:#84bd00;
-    padding: 8px,16px,8px,2px;
+    padding: 8px 16px 8px 0px;
+    margin: 2px 2px 2px 2px;
 }
 
 #navlnk1 {
-    color:#84bd00;
+    margin-top: 15px;
+    color:Black;
+}
+
+#dropdownMenuButton1 {
+    background-color: white;
+    border-color: white;
+    color: black;
 }
 
 #navlnk2 {
-    color:#84bd00;
+    margin-top: 15px;
+    color:black;
 }
 
 #navlnk3 {
-    color:#84bd00;
+    margin-top: 15px;
+    color:black;
+}
+
+.dropdown-item::marker{
+    border-color: greenyellow;
 }
 
 
 /* **MAIN CONTENT** */
 #content-container {
     color: white;
+    background-color: black;
+    border: solid black 20px;
+    border-radius: .75%;
+    width: 100vw;
+    /* padding: 0px 0px 0px 0px; */
+    /* margin: 0em 100em 0em 0em; */
+
 }
 
 #content-row {
     color: white;
+    margin-right: .5rem;
 }
 
 #splash {
     color: white;
+    /* margin-right: 50rem; */
+    /* margin: 0px 0px 0px 0px; */
 }
 
 
 /* **FORM** */
 #form-container {
     color: white;
+    background-color: white;
+    border: solid white 5px;
     align-items: center;
     justify-content: center;
 }
@@ -144,6 +195,7 @@ container{
 #btn-form-submit {
     background-color: #84bd00;
     border-color: #84bd00;
+    color: black;
     margin-top: 5px;
 }
 
