@@ -11,16 +11,6 @@ let valueProposition = "Anywhere Products, LLC provides quality products and ser
 let coLogo = "./images/Anywhere-Products.jpg";
 let fullAddress = `${coStreet}, ${coCity}, ${coState} ${coZip}`;
 
-// Product Images
-// 2SGS-BlueSky
-let image1 = "./images/WebP/2SGS-BlueSky.webp";
-// 2SGS-SolarFarm
-let image2 = "./images/WebP/2SGS-SolarFarm.webp";
-// CrossLinerLite2
-let image3 = "./images/WebP/CossLinerLite2.webp;"
-// dalokove_ovladani
-let image4= "./images/WebP/dalokove_ovlandaniCrop.webp";
-
 
 let logoElement = '<img source=logo alt="Anywhere Products, LLC logo" >'
 document.getElementById('logo');

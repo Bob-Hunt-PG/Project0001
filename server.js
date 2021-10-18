@@ -19,7 +19,7 @@ app.post('/', (req, res)=>{
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            // **Needs to be stored in environment variables**
+            // **Real information needs to be stored in environment variables**
             user: 'bhunt@prioritygroup.com',
             pass: 'quality'
         }
@@ -27,7 +27,7 @@ app.post('/', (req, res)=>{
 
     const mailOptions = {
         from: req.body.email,
-        to: 'anywherepdt@gmail.com',
+        to: 'bhunt@pioritygroup.com',
         subject: `Message from ${req.body.fullName}: ${req.body.subject}`,
         text: req.body.message
     }
