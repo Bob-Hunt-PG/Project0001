@@ -5,7 +5,6 @@ body {
     padding: 0px;
     border: 0px;
     background-color: black;
-    /* background-color: white; */
 }
 
 #main {
@@ -14,7 +13,7 @@ body {
     padding: 0;
 }
   
-container{
+#container{
     width: 100%;   
     margin: 0;
     padding: 0;
@@ -30,10 +29,6 @@ container{
 #bumper-top {
     background-color: black;
     color: black;
-}
-
-#bumper-btm-container {
-    color: darkorange;
 }
 
 #bumper-btm {
@@ -69,9 +64,7 @@ container{
     background-color: white;
     color: white;
     border:solid white 10px;
-    /* width: 100%; */
     Padding: 20px;
-
 } 
 
 #header-spacer {
@@ -79,61 +72,50 @@ container{
     background-color: white;
 }
 
-#nav-col {
+#nav-sect {
     background-color: white;
-    justify-content: center;
-    align-items: baseline;
-}
-
-.header-nav {
-    color: chocolate;
 }
 
 .navbar {
-    color: crimson;
     justify-content: space-evenly;
-    /* justify-content: space-between; */
-    align-items: baseline;
+    justify-content: right;
 }
 
 .nav-item {
-    /* color: #FECC00; */
-    color: #84bd00;
     align-items: center;
     justify-content: left;
+    list-style: none;
 }
 
 .nav-link {
-    color:#84bd00;
-    padding: 8px 16px 8px 0px;
+    padding: 8px 16px 8px 32px;
     margin: 2px 2px 2px 2px;
 }
 
 #navlnk1 {
     margin-top: 15px;
-    color:Black;
+    color:darkgrey;
+    list-style: none;
 }
 
 #dropdownMenuButton1 {
+    list-style: none;
     background-color: white;
     border-color: white;
-    color: black;
+    color: darkgrey;
 }
 
 #navlnk2 {
     margin-top: 15px;
-    color:black;
+    color:darkgrey;
+    list-style: none;
 }
 
 #navlnk3 {
     margin-top: 15px;
-    color:black;
+    color:darkgrey;
+    list-style: none;
 }
-
-.dropdown-item::marker{
-    border-color: greenyellow;
-}
-
 
 
 /* **MAIN CONTENT** */
@@ -144,22 +126,16 @@ container{
     border-radius: .75%;
     height: 80vh;
     width: 100vw;
-    /* padding: 0px 0px 0px 0px; */
-    /* margin: 0em 100em 0em 0em; */
-
 }
 
 #content-row {
     color: white;
     height: 80vh;
-    /* margin-right: .5rem; */
 }
 
 #splash {
     color: white;
     height: 80vh;
-    /* margin-right: 50rem; */
-    /* margin: 0px 0px 0px 0px; */
 }
 
 #carouselExampleCaptions {
@@ -169,7 +145,6 @@ container{
 #indicator {
     background-color: white;
     border: 1px solid black;
-    text-shadow: 0 0 4px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
 }
 
 .black-text {
@@ -185,6 +160,7 @@ container{
     font-weight: bold;
     font-size: 2rem;
 }
+
 .white-text {
     text-shadow: 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black;
     font-size: 2rem;
@@ -238,6 +214,7 @@ container{
     align-items: center;
     justify-content: center;
     margin-top: 40px;
+    height: 80vh;
 }
 
 #form-row {
@@ -251,13 +228,12 @@ container{
 }
 .form-header {
     color: #84bd00;
-    font-size: 27px;
+    font-size: 36px;
     padding: 10px;
 }
 
 .bigicon {
     font-size: 35px;
-    /* color: #36A0FF; */
     color: #FECC00;
 }
 #fname {
@@ -284,93 +260,12 @@ container{
 }
 
 
-/* **PRODUCTS** */
-#product-container {
-    justify-content: center;
-    align-self: center;
-}
-
-
-
-.product-title {
-    color: #84bd00;
-}
-
-#product-1 {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-#product-2 {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-#prod-item-1 {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-#prod-item-1 {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-#prod1-description {
-    background-color: white;
-    color: black;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100vw;
-}
-
-#prod2-description {
-    background-color: white;
-    color: black;
-    justify-content: center;
-    align-self: center;
-    text-align: center;
-    width: 100vw;
-}
-
-
 /* **FOOTER** */
 #footer-container {
     background-color: black;
+    border-top: 1rem solid black;
     color: white;
-}
-
-#footer-row {
-    color: red;
-}
-
-#footer-div1 {
-    color: #84bd00;
-}
-
-#footer-div2 {
-    color: #84bd00;
-}
-
-#footer-div3 {
-    color: White;
-}
-
-#footer-div4 {
-    color: #84bd00;
-}
-
-.footer-ul {
-    color: red;
-}
-
-.footer-li {
-    color: white;
+    height: 20vh;
 }
 
 #socialMedia {
