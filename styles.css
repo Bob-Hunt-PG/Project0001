@@ -211,16 +211,15 @@ body {
     color: white;
     background-color: white;
     border: solid white 5px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-top: 10rem;
     height: 80vh;
+    width: 100vw;
 }
 
 #form-row {
     color: white;
-    align-items: center;
-    justify-content: center;
 }
 
 #form {
@@ -232,10 +231,6 @@ body {
     padding: 10px;
 }
 
-.bigicon {
-    font-size: 35px;
-    color: #FECC00;
-}
 #fname {
     margin-bottom: 3px;
 }
@@ -271,6 +266,7 @@ body {
 #socialMedia {
     align-content: center;
     text-align: center;
+    border-top: 1rem solid black;
     color: white;
     justify-content: center;
 }
@@ -284,6 +280,7 @@ body {
 
 #coName {
     align-content: center;
+    border-top: 1rem solid black;
     color: white;
     font-weight: bold;
     text-align: center;
@@ -307,6 +304,7 @@ body {
 
 #contactUs {
     align-content: center;
+    border-top: 1rem solid black;
     text-align: center;
     color: white;
     justify-content: center;
