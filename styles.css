@@ -9,12 +9,15 @@ body {
 }
 
 #main {
-    width: 100vw;
-    margin: 0px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
   
 container{
-    width: 100vw;   
+    width: 100%;   
+    margin: 0;
+    padding: 0;
 }
 
 /* The bumpers allow for spacing at top and/or bottom */
@@ -39,20 +42,25 @@ container{
 
 
 /* **HEADER** */
-#header-container {
+#testainer {
+    width:100vw;
+    height: 20vh;
+    margin: 0;
+    border-bottom: 5px solid black;
+}
+
+#header-tainer {
     color: white;
     background-color: white;
-    margin: 5px 0px 0px 0px;
-    margin-right: 0px;
-    width: 100vw;
+    margin: 0px 0px 0px 0px;
     padding: 0px;
-    /* position: fixed; */
+    width: 100%;
     z-index: 1;
 }
 
 #header-row {
     color: white;
-    width: 100vw;
+    width: 100%;
 }
 
 #logo {
@@ -68,8 +76,6 @@ container{
 #header-spacer {
     color: white;
     background-color: white;
-    height: 33vh;
-    width: 100vw;
 }
 
 #nav-col {
@@ -132,9 +138,10 @@ container{
 /* **MAIN CONTENT** */
 #content-container {
     color: white;
-    background-color: black;
+    background-color: purple;
     border: solid black 20px;
     border-radius: .75%;
+    height: 80vh;
     width: 100vw;
     /* padding: 0px 0px 0px 0px; */
     /* margin: 0em 100em 0em 0em; */
@@ -143,15 +150,31 @@ container{
 
 #content-row {
     color: white;
-    margin-right: .5rem;
+    height: 80vh;
+    /* margin-right: .5rem; */
 }
 
 #splash {
     color: white;
+    height: 80vh;
     /* margin-right: 50rem; */
     /* margin: 0px 0px 0px 0px; */
 }
 
+#carouselExampleCaptions {
+    height: 80vh;
+}
+
+.black-text {
+    color: black;
+    text-decoration: black;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.white-text {
+    font-size: 2rem;
+}
 
 /* **FORM** */
 #form-container {
@@ -160,6 +183,7 @@ container{
     border: solid white 5px;
     align-items: center;
     justify-content: center;
+    margin-top: 40px;
 }
 
 #form-row {
