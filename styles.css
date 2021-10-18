@@ -330,20 +330,24 @@ container{
     color: white;
 }
 
-#links-ul {
+#address-ul {
     color: white;
 }
 
-#link-1 {
+#address-1 {
     color: white;
+    list-style-type:none;
+    text-align: left;
 }
 
-#link-2 {
+#address-2 {
     color: white;
+    list-style-type:none;
 }
 
-#link-3 {
+#address-3 {
     color: white;
+    list-style-type:none;
 }
 
 #contact-ul {
