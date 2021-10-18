@@ -271,19 +271,19 @@ container{
 }
 
 #footer-div1 {
-    color: deeppink;
+    color: #84bd00;
 }
 
 #footer-div2 {
-    color: deeppink;
+    color: #84bd00;
 }
 
 #footer-div3 {
-    color: deeppink;
+    color: White;
 }
 
 #footer-div4 {
-    color: deeppink;
+    color: #84bd00;
 }
 
 .footer-ul {
@@ -291,7 +291,7 @@ container{
 }
 
 .footer-li {
-    color: red;
+    color: white;
 }
 
 #optional-ul {
@@ -299,63 +299,67 @@ container{
 }
 
 #opt-1 {
-    color: yellow;
+    color: white;
 }
 
 #opt-2 {
-    color: yellow;
+    color: white;
 }
 
 #opt-3 {
-    color: yellow;
+    color: white;
 }
 
 #social-ul {
-    color: chartreuse;
+    color: white;
 }
 
 #soc-1 {
-    color: yellow;
+    color: white;
+}
+
+#soc-1-content {
+    color: white;
 }
 
 #soc-2 {
-    color: yellow;
+    color: white;
 }
 
 #soc-3 {
-    color: yellow;
+    color: white;
 }
 
 #links-ul {
-    color: chartreuse;
+    color: white;
 }
 
 #link-1 {
-    color: yellow;
+    color: white;
 }
 
 #link-2 {
-    color: yellow;
+    color: white;
 }
 
 #link-3 {
-    color: yellow;
+    color: white;
 }
 
 #contact-ul {
-    color: chartreuse;
+    color: white;
 }
 
 #contact-1 {
-    color: yellow;
+    color: white;
 }
 
 #contact-2 {
-    color: yellow;
+    color: white;
 }
 
 #contact-3 {
-    color: yellow;
+    color: white;
 }
 
 
