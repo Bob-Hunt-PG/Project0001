@@ -37,7 +37,7 @@ body {
 }
 
 
-/* **HEADER** */
+/* ** HEADER ** */
 #testainer {
     width:100vw;
     height: 20vh;
@@ -118,7 +118,7 @@ body {
 }
 
 
-/* **MAIN CONTENT** */
+/* ** MAIN CONTENT ** */
 #content-container {
     color: white;
     background-color: black;
@@ -206,7 +206,7 @@ body {
  }
  
    
-/* **FORM** */
+/* ** FORM ** */
 #form-container {
     color: white;
     background-color: white;
@@ -260,7 +260,7 @@ body {
 }
 
 
-/* **FOOTER** */
+/* ** FOOTER ** */
 #footer-container {
     background-color: black;
     border-top: 1rem solid black;
