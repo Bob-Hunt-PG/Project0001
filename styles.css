@@ -341,6 +341,7 @@ container{
 
 /* **FOOTER** */
 #footer-container {
+    background-color: black;
     color: white;
 }
 
@@ -372,76 +373,62 @@ container{
     color: white;
 }
 
-#optional-ul {
-    color: chartreuse;
+#socialMedia {
+    align-content: center;
+    text-align: center;
+    color: white;
+    justify-content: center;
 }
 
-#opt-1 {
+#facebook {
+    align-content: center;
+    text-align: center;
     color: white;
+    justify-content: center;
 }
 
-#opt-2 {
+#coName {
+    align-content: center;
     color: white;
-}
-
-#opt-3 {
-    color: white;
-}
-
-#social-ul {
-    color: white;
-}
-
-#soc-1 {
-    color: white;
-}
-
-#soc-1-content {
-    color: white;
-}
-
-#soc-2 {
-    color: white;
-}
-
-#soc-3 {
-    color: white;
-}
-
-#address-ul {
-    color: white;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
 }
 
 #address-1 {
+    align-content: center;
     color: white;
     list-style-type:none;
-    text-align: left;
+    text-align: center;
+    justify-content: center;
 }
 
 #address-2 {
+    align-content: center;
     color: white;
-    list-style-type:none;
+    text-align: center;
+    justify-content: center;
 }
 
-#address-3 {
+#contactUs {
+    align-content: center;
+    text-align: center;
     color: white;
-    list-style-type:none;
+    justify-content: center;
 }
 
-#contact-ul {
+#phone {
+    align-content: center;
+    text-align: center;
     color: white;
+    justify-content: center;
 }
 
-#contact-1 {
+#email {
+    align-content: center;
+    text-align: center;
     color: white;
-}
-
-#contact-2 {
-    color: white;
-}
-
-#contact-3 {
-    color: white;
+    justify-content: center;
 }
 
 
