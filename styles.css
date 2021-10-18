@@ -24,8 +24,9 @@ container{
 /* to compensate for phones which have buttons/cameras etc */
 /* that block a portion of the screen. */
 #bumper-top-container {
-    color: darkorchid;
+    color: black;
 }
+
 #bumper-top {
     background-color: black;
     color: black;
@@ -162,7 +163,13 @@ container{
 }
 
 #carouselExampleCaptions {
-    height: 80vh;
+    height: 75vh;
+}
+
+#indicator {
+    background-color: white;
+    border: 1px solid black;
+    text-shadow: 0 0 4px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
 }
 
 .black-text {
@@ -172,10 +179,57 @@ container{
     font-size: 2rem;
 }
 
+.ltGrey-text {
+    color: lightgrey;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    font-weight: bold;
+    font-size: 2rem;
+}
 .white-text {
+    text-shadow: 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black;
     font-size: 2rem;
 }
 
+.carousel-inner {
+    height: 75vh;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.carousel-item {
+    height: 75vh;
+    object-fit: contain;
+}
+
+#prev-img {
+    height: 75vh;
+}
+
+#next-img {
+    height: 75vh;
+}
+
+#caroImg1{
+    height: 75vh;
+   object-fit: contain; 
+}
+
+#caroImg2{
+    height: 75vh;
+    object-fit: contain; 
+ }
+ 
+ #caroImg3{
+    height: 75vh;
+    object-fit: contain; 
+ }
+ 
+ #caroImg4{
+    height: 75vh;
+    object-fit: contain; 
+ }
+ 
+   
 /* **FORM** */
 #form-container {
     color: white;
