@@ -1,6 +1,7 @@
 body {
     /* eliminate preformated spacing */
-    height: 100vh;
+    width: 100vw;
+    height: 100%;
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -9,8 +10,9 @@ body {
 }
 
 #main {
-    width: 100vw;
+    width: 100%;
     margin: 0px;
+    border: 0;
 }
   
 container{
@@ -42,9 +44,9 @@ container{
 #header-container {
     color: white;
     background-color: white;
-    margin: 5px 0px 0px 0px;
-    margin-right: 0px;
-    width: 100vw;
+    margin: 0px 0px 0px 0px;
+    /* margin-right: 0px; */
+    width: 100%;
     padding: 0px;
     /* position: fixed; */
     z-index: 1;
@@ -62,7 +64,6 @@ container{
     border:solid white 10px;
     /* width: 100%; */
     Padding: 20px;
-
 } 
 
 #header-spacer {
@@ -83,7 +84,6 @@ container{
 }
 
 .navbar {
-    color: crimson;
     justify-content: space-evenly;
     /* justify-content: space-between; */
     align-items: baseline;
@@ -91,13 +91,11 @@ container{
 
 .nav-item {
     /* color: #FECC00; */
-    color: #84bd00;
     align-items: center;
     justify-content: left;
 }
 
 .nav-link {
-    color:#84bd00;
     padding: 8px 16px 8px 0px;
     margin: 2px 2px 2px 2px;
 }
@@ -127,7 +125,76 @@ container{
     border-color: greenyellow;
 }
 
+/* **TEST ONE** */
+#container-test1 {
+width: 300px;
+height: 200px;
+}
 
+#row-test1 {
+    width: 100%;
+}
+
+#test1 {
+    align-content: center;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 70vh;
+}
+
+#test1 {
+    width: 100%;
+    object-fit: contain;
+}
+
+/* **SPLASH** */
+#test2 {
+    margin: 0;
+    background-color: lightseagreen;
+    width: 100%;
+    border: 5px solid lawngreen;
+}
+
+#splash-container {
+    border: 5px solid red;
+    background-color: green;
+    margin: 0px;
+    border: 0px;
+    height: 68vh;
+    width: 100vh;
+}
+
+#splash-row {
+    border: 5px solid blue;
+    width: 100vh;
+    height: 100%;
+}
+
+#splash {
+    border: 5px solid orange;
+    border-bottom: solid black 20px;
+    margin: 0px;
+    /* width: 100vw; */
+    width: 100%;
+    height: 68vh;
+    object-fit: fill;
+
+}
+
+.image-container {
+    border: 5px solid Yellow;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+#splash-image {
+    border: 5px solid red;
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+}
 
 /* **MAIN CONTENT** */
 #content-container {
@@ -138,7 +205,6 @@ container{
     width: 100vw;
     /* padding: 0px 0px 0px 0px; */
     /* margin: 0em 100em 0em 0em; */
-
 }
 
 #content-row {
@@ -146,7 +212,7 @@ container{
     margin-right: .5rem;
 }
 
-#splash {
+#carousel {
     color: white;
     /* margin-right: 50rem; */
     /* margin: 0px 0px 0px 0px; */
@@ -171,6 +237,7 @@ container{
 #form {
     color: white;
 }
+
 .form-header {
     color: #84bd00;
     font-size: 27px;
@@ -182,6 +249,7 @@ container{
     /* color: #36A0FF; */
     color: #FECC00;
 }
+
 #fname {
     margin-bottom: 3px;
 }
@@ -211,8 +279,6 @@ container{
     justify-content: center;
     align-self: center;
 }
-
-
 
 .product-title {
     color: #84bd00;
