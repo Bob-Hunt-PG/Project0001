@@ -119,92 +119,16 @@ body {
 
 
 /* **MAIN CONTENT** */
-#content-container {
-    color: white;
-    background-color: black;
-    border: solid black 20px;
-    border-radius: .75%;
-    height: 80vh;
-    width: 100vw;
+.img-container {
+    height: 70vh;
 }
 
-#content-row {
-    color: white;
-    height: 80vh;
+#mower {
+    z-index: 2;
+    width: 100vw
+    
 }
 
-#splash {
-    color: white;
-    height: 80vh;
-}
-
-#carouselExampleCaptions {
-    height: 75vh;
-}
-
-#indicator {
-    background-color: white;
-    border: 1px solid black;
-}
-
-.black-text {
-    color: black;
-    text-decoration: black;
-    font-weight: bold;
-    font-size: 2rem;
-}
-
-.ltGrey-text {
-    color: lightgrey;
-    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
-    font-weight: bold;
-    font-size: 2rem;
-}
-
-.white-text {
-    text-shadow: 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black;
-    font-size: 2rem;
-}
-
-.carousel-inner {
-    height: 75vh;
-    object-fit: contain;
-    z-index: 1;
-}
-
-.carousel-item {
-    height: 75vh;
-    object-fit: contain;
-}
-
-#prev-img {
-    height: 75vh;
-}
-
-#next-img {
-    height: 75vh;
-}
-
-#caroImg1{
-    height: 75vh;
-   object-fit: contain; 
-}
-
-#caroImg2{
-    height: 75vh;
-    object-fit: contain; 
- }
- 
- #caroImg3{
-    height: 75vh;
-    object-fit: contain; 
- }
- 
- #caroImg4{
-    height: 75vh;
-    object-fit: contain; 
- }
- 
    
 /* **FORM** */
 #form-container {
