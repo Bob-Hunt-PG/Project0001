@@ -121,24 +121,71 @@ body {
 /* **MAIN CONTENT** */
 #content-container {
     color: white;
-    background-color: black;
-    border: solid black 20px;
-    border-radius: .75%;
+    margin: 0;
+    border-top: 20px solid white;
     height: 80vh;
-    width: 100vw;
+    /* width: 100%; */
 }
 
 #content-row {
+    /* display: flex; */
+    flex-direction: column;
     color: white;
+    margin-top: 10px solid white;
     height: 80vh;
+    width: 100vw;
+    margin: 0px;
+    border: 0px;
+
 }
 
-#splash {
+#splash-1 {
     color: white;
     height: 80vh;
+    width: 33vw;
+    z-index: 1;
+    object-fit: contain;
+    margin: 0px;
+    border: 0px;
+    overflow: hidden;
 }
 
-#carouselExampleCaptions {
+#splash-2 {
+    color: white;
+    height: 80vh;
+    width: 34vw;
+    z-index: 1;
+    object-fit: contain;
+    margin: 0px;
+    border: 0px;
+    overflow: hidden;
+}
+
+#splash-3 {
+    color: white;
+    height: 80vh;
+    width: 33vw;
+    z-index: 1;
+    object-fit: contain;
+    margin: 0px;
+    border: 0px;
+    overflow: hidden;
+}
+
+#img1 {
+    max-height: 80vh;
+}
+
+#img2 {
+    max-height: 80vh;
+}
+
+#img3 {
+    max-height: 80vh;
+}
+
+
+/* #carouselExampleCaptions {
     height: 75vh;
 }
 
@@ -203,7 +250,7 @@ body {
  #caroImg4{
     height: 75vh;
     object-fit: contain; 
- }
+ } */
  
    
 /* **FORM** */
