@@ -78,7 +78,7 @@ body {
 
 .navbar {
     justify-content: space-evenly;
-    justify-content: right;
+    justify-content: flex-end;
 }
 
 .nav-item {
